@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.7" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="true" nesting-relationships="true">  
+  <class id="1" language="java" name="org.neo4j.shell.extension.util.ProgressReporter" project="neo4j-graphlab" 
+    file="/neo4j-graphlab/src/main/java/org/neo4j/shell/extension/util/ProgressReporter.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="553" y="174"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="org.neo4j.shell.extension.util.BatchTransaction" project="neo4j-graphlab" 
+    file="/neo4j-graphlab/src/main/java/org/neo4j/shell/extension/util/BatchTransaction.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="433" y="303"/>    
+    <display autosize="false" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="org.neo4j.shell.extension.util.Config" project="neo4j-graphlab" 
+    file="/neo4j-graphlab/src/main/java/org/neo4j/shell/extension/util/Config.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="110" y="360"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="4" language="java" name="org.neo4j.graphdb.Transaction" project="neo4j-graphlab" 
+    file="/Users/zys/.m2/repository/org/neo4j/neo4j-kernel/2.1.5/neo4j-kernel-2.1.5.jar" binary="true" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="557" y="402"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="5" language="java" name="org.neo4j.shell.extension.util.runGL" project="neo4j-graphlab" 
+    file="/neo4j-graphlab/src/main/java/org/neo4j/shell/extension/util/runGL.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="802" y="385"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="org.neo4j.shell.extension.imp.addTopicApp" project="neo4j-graphlab" 
+    file="/neo4j-graphlab/src/main/java/org/neo4j/shell/extension/imp/addTopicApp.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="277" y="172"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="false" static="true"/>      
+      <operations public="true" package="true" protected="true" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="7" language="java" name="org.neo4j.shell.Output" project="neo4j-graphlab" 
+    file="/Users/zys/.m2/repository/org/neo4j/neo4j-shell/2.1.5/neo4j-shell-2.1.5.jar" binary="true" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="652" y="64"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="8" language="java" name="org.neo4j.shell.impl.AbstractApp" project="neo4j-graphlab" 
+    file="/Users/zys/.m2/repository/org/neo4j/neo4j-shell/2.1.5/neo4j-shell-2.1.5.jar" binary="true" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="291" y="40"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="9" language="java" name="org.neo4j.kernel.GraphDatabaseAPI" project="neo4j-graphlab" 
+    file="/Users/zys/.m2/repository/org/neo4j/neo4j-kernel/2.1.5/neo4j-kernel-2.1.5.jar" binary="true" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="328" y="406"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="10" language="java" name="org.neo4j.cypher.javacompat.ExecutionEngine" project="neo4j-graphlab" 
+    file="/Users/zys/.m2/repository/org/neo4j/neo4j-cypher/2.1.5/neo4j-cypher-2.1.5.jar" binary="true" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="101" y="40"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="11" language="java" name="org.neo4j.shell.extension.util.Reporter" project="neo4j-graphlab" 
+    file="/neo4j-graphlab/src/main/java/org/neo4j/shell/extension/util/Reporter.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="632" y="246"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </interface>  
+  <association id="12">    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="13" name="gdb"/>      
+      <multiplicity id="14" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="9" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="15">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="3"/>  
+  </dependency>  
+  <association id="16">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="17" name="out"/>      
+      <multiplicity id="18" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="7" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="19">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="8"/>  
+  </generalization>  
+  <dependency id="20">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="1"/>  
+  </dependency>  
+  <association id="21">    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="22" name="reporter"/>      
+      <multiplicity id="23" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="11" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="24">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="7"/>  
+  </dependency>  
+  <association id="25">    
+    <end type="SOURCE" refId="6" navigable="false">      
+      <attribute id="26" name="engine"/>      
+      <multiplicity id="27" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="10" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="28">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="7"/>  
+  </dependency>  
+  <realization id="29">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="11"/>  
+  </realization>  
+  <association id="30">    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="31" name="tx"/>      
+      <multiplicity id="32" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="4" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="33">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <dependency id="34">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="2"/>  
+  </dependency>  
+  <dependency id="35">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="7"/>  
+  </dependency>  
+  <dependency id="36">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="9"/>  
+  </dependency>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
